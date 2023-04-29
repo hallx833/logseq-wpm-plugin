@@ -1,0 +1,12 @@
+{
+  "name": "logseq-wpm",
+  "version": "1.0.0",
+  "main": "index.html",
+  "logseq": {
+    "id": "logseq-wpm",
+    "icon": "./icon.png"
+  },
+  "dependencies": {
+    "@logseq/libs": "^0.0.14"
+  }
+}
