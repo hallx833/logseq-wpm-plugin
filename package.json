@@ -6,6 +6,9 @@
     "id": "logseq-wpm",
     "icon": "./icon.png"
   },
+  "scripts": {
+    "build": "parcel build --no-source-maps index.html --public-url ./"
+  },
   "dependencies": {
     "@logseq/libs": "^0.0.14"
   }
