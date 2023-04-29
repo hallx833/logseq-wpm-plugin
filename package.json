@@ -1,15 +1,27 @@
 {
-  "name": "logseq-wpm",
-  "version": "1.0.0",
-  "main": "index.html",
-  "logseq": {
-    "id": "logseq-wpm",
-    "icon": "./icon.png"
+  "name": "logseq-wpm-counter",
+  "version": "1.0.2",
+  "description": "Pomodoro Timer",
+  "main": "dist/index.html",
+  "targets": {
+    "main": false
   },
   "scripts": {
     "build": "parcel build --no-source-maps index.html --public-url ./"
   },
+  "keywords": [],
+  "author": "Evan Hall",
+  "license": "MIT",
   "dependencies": {
-    "@logseq/libs": "^0.0.14"
+    "@logseq/libs": "0.0.1-alpha.35",
+    "node-gyp": "^9.3.1"
+  },
+  "logseq": {
+    "id": "logseq-wpm-counter",
+    "title": "logseq-wpm-counter",
+    "icon": "./icon.png"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
   }
 }
