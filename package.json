@@ -2,7 +2,7 @@
   "name": "logseq-wpm-counter",
   "version": "0.1.1",
   "description": "Words per minute counter",
-  "main": "index.html",
+  "main": "dist/index.html",
   "targets": {
     "main": false
   },
