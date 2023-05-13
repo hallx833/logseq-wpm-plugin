@@ -1,6 +1,6 @@
 {
   "name": "logseq-wpm-counter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Words per minute counter",
   "main": "dist/index.html",
   "targets": {
